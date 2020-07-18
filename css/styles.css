@@ -1,0 +1,140 @@
+#squar{
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    margin-top: 3%;
+    background-color: black;
+    border-style: ridge;
+    border-radius: 6px;
+}
+
+#range_red,#range_green,#range_blue
+{
+    width: 240px;     
+    margin-left: 2%;  
+    margin-right: 2%; 
+}
+
+#input_red
+{
+    background-color: brown;
+    color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+    width: 100px; 
+    margin-left: 4%;  
+}
+
+#input_blue
+{
+    background-color: blue;
+    color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+    width: 100px; 
+    margin-left: 4%;  
+}
+
+#input_green
+{
+    background-color: green;
+    color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+    width: 100px; 
+    margin-left: 4%;  
+}
+
+p
+{
+    width: 500px; 
+    margin-left: 4%;    
+}
+
+h2{   
+    text-align: center;
+    font-weight: bold;
+}
+
+h4{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #0080ff;
+    font-weight: bold;
+}
+
+.container {
+display: flex;
+position: absolute;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.container2 {
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: left;
+margin-top: 1%;
+}
+
+
+.container4{
+align-items: center;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.container3 {
+display: flex;
+flex-direction: row;
+margin-top: 3%;
+margin-left: 200px;
+}
+
+p{
+    width: 16%;
+}
+
+input[type=range] {
+-webkit-appearance: none;
+margin: 10px 0;
+width: 100%;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000;
+  background: #b0bdc9;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -11px;
+}
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootcamp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="container4"> 
+    <h2>Bootcamp: Desenvolvimento Full Stack</h2>
+  <h4> Instituto de Gestão e Tecnologia da Informação</h4>
+  <button type="button" class="btn btn-info btn-lg justify-content-center "  data-toggle="modal" data-target="#myModal">Escala RGB</button>
+  </div>
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Diagrama de cores RGB</h3>
+        </div>
+        <div class="modal-body">
+            <div class="container2">
+                <p>(R) vermelho: </p>       
+                0<input type="range" id="range_red" min="0" max="255" value="0" /> 255
+                <input type="text" id="input_red" value="0" />           
+           </div>
+           <div class="container2"> 
+               <p>(G) verde: </p>        
+                0<input type="range" id="range_green" min="0" max="255" value="0" />255
+                <input type="text" id="input_green" value="0" />
+            </div>
+            <div class="container2">  
+                <p>(B) azul: </p>     
+                0<input type="range" id="range_blue" min="0" max="255"  value="0" />255
+                <input type="text" id="input_blue" value="0" />
+             </div>
+            <div class="container3">
+                <div id='squar'></div>
+            </div>
+            <script src="./js/script.js"></script>     
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-dismiss="modal">Sair</button>
+        </div>
+      </div>   
+    </div>
+  </div>
+</div>
+</body>
+</html>
